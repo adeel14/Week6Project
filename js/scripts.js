@@ -82,7 +82,7 @@ function truncate(name, charLength){
 		// console.log(masterItem);
 		var image = masterItem.MainImage.url_fullxfull;
 
-		var name = $('<h3>').text(truncate(masterItem.title, 20));
+		var name = $('<h3>').text(truncate(masterItem.title, 25));
 		var price = $("<p>").text(masterItem.price);
 		var description = $('<p>').addClass('etsy-description').text(truncate(masterItem.description, 150));
 		console.log(masterItem);
