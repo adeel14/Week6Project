@@ -261,7 +261,8 @@ input.submit {
   border: 1px solid #E4E4E1;
   text-align: center;
   flex-direction: column;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+   }
 
 .priceBuy {
   display: flex;
@@ -285,9 +286,10 @@ input.submit {
   max-height: 200px;
   overflow-y: auto;
   border: 1px solid #E4E4E1;
-  text-align: left; }
+  text-align: left;
+  min-height: 200px; }
 
-p.etsy-description {
+p.etsy-description 
   font-size: 15px;
   color: #B2B2B2; }
 

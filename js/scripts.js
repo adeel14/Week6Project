@@ -86,9 +86,9 @@ function truncate(name, charLength){
 		var masterItem = etsyResult[i];
 		var image = masterItem.MainImage.url_fullxfull;
 
-		var name = $('<h3>').text(truncate(masterItem.title, 20));
+		var name = $('<h3>').text(truncate(masterItem.title, 50));
 		var price = $("<p>").text('$' + masterItem.price);
-		var description = $('<p>').addClass('etsy-description').text(truncate(masterItem.description, 150));
+		var description = $('<p>').addClass('etsy-description').text(truncate(masterItem.description, 300));
 		console.log(masterItem);
 		var link = masterItem.url;
 		etsyLink = $("<a target='_blank'>").attr('href', link).text('Buy on Etsy');
